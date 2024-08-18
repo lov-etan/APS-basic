@@ -1,4 +1,4 @@
-package D2;
+package SWEA;
 
 import java.util.Scanner;
 
@@ -34,7 +34,6 @@ public class 새로운불면증치료법 {
 		//카운팅배열로 해주기
 		for(int i=0; i<number.length(); i++) {
 			zeroToNine[number.charAt(i)-'0']++; //카운팅배열시 값만 하나씩 올라가는거 잊지말기!!!
-			
 		}
 		
 		for(int i=0; i<10; i++) {
